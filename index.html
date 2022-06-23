@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Chrome extention</title>
+
+<body>
+<h1>heading</h1>
+<script>
+    function doSomething(){
+        document.getElementById("test").innerHTML = "bye";
+    }
+</script>
+<form>
+    Select your country:
+    <select id="Country">
+      <option>USA</option>
+      <option>INDIA</option>
+      <option>CHINA</option>
+      <option>UK</option>
+      <option>UAE</option>
+      <option>RUSSIA</option>
+    </select>
+    <br><br>
+</form>
+<form>
+    Select category:
+    <select id="cata">
+      <option>Business</option>
+      <option>Entertainment</option>
+      <option>ScienceAndTechnology</option>
+      <option>Sports</option>
+      <option>World</option>
+    </select>
+    <br><br>
+</form>
+<form>
+    Select number:
+    <select id="num">
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+    </select>
+    <br><br>
+</form>
+
+<a href="https://www.google.com">
+    <button onclick="doSomething()" ">Submit</button>
+</a>
+
+<p id="test">Hey</p>
+<p>asdfsdf</p>
+</body>
+</html>
